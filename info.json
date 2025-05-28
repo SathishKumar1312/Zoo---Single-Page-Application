@@ -1,0 +1,76 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Elephant",
+      "species": "Loxodonta",
+      "lifespan": "60-70 years",
+      "diet": "Herbivore",
+      "habitat": "Savannah, Forests",
+      "interesting_fact": "Elephants have the largest brain of any land animal and can recognize themselves in a mirror."
+    },
+    {
+      "id": 2,
+      "name": "Cheetah",
+      "species": "Acinonyx jubatus",
+      "lifespan": "10-12 years",
+      "diet": "Carnivore",
+      "habitat": "Grasslands, Savannas",
+      "interesting_fact": "Cheetahs are the fastest land animals, reaching speeds of up to 75 mph in short bursts."
+    },
+    {
+      "id": 3,
+      "name": "Penguin",
+      "species": "Spheniscidae",
+      "lifespan": "15-20 years",
+      "diet": "Carnivore",
+      "habitat": "Antarctica, Coastal Regions",
+      "interesting_fact": "Penguins can drink salt water, thanks to a special gland that filters out excess salt."
+    },
+    {
+      "id": 4,
+      "name": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "lifespan": "20-25 years",
+      "diet": "Herbivore",
+      "habitat": "Savannas, Woodlands",
+      "interesting_fact": "Giraffes have the same number of neck vertebrae as humans—seven!"
+    },
+    {
+      "id": 5,
+      "name": "Tiger",
+      "species": "Panthera tigris",
+      "lifespan": "10-15 years",
+      "diet": "Carnivore",
+      "habitat": "Forests, Grasslands",
+      "interesting_fact": "Tigers have unique stripe patterns, much like human fingerprints."
+    },
+    {
+      "id": 6,
+      "name": "Kangaroo",
+      "species": "Macropodidae",
+      "lifespan": "6-8 years (wild), up to 23 years (captivity)",
+      "diet": "Herbivore",
+      "habitat": "Grasslands, Forests",
+      "interesting_fact": "Kangaroos cannot walk backward due to their strong tail and leg structure."
+    },
+    {
+      "id": 7,
+      "name": "Dolphin",
+      "species": "Delphinidae",
+      "lifespan": "20-60 years",
+      "diet": "Carnivore",
+      "habitat": "Oceans, Coastal Waters",
+      "interesting_fact": "Dolphins use echolocation to find food and navigate their environment."
+    },
+    {
+      "id": 8,
+      "name": "Wolf",
+      "species": "Canis lupus",
+      "lifespan": "6-8 years (wild), up to 15 years (captivity)",
+      "diet": "Carnivore",
+      "habitat": "Forests, Mountains, Tundra",
+      "interesting_fact": "Wolves have complex social structures and communicate through vocalizations and body language."
+    }
+  ]
+}
