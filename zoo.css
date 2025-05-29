@@ -57,7 +57,16 @@ img {
 }
 img {
   border: 1px solid black;
+  transform: scale(0.9); /* Slightly zoomed out */
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
+
+img.loaded {
+  transform: scale(1); /* Zooms in */
+  opacity: 1; /* Fades in */
+}
+
 
 .size {
   display: block;

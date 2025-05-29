@@ -17,18 +17,25 @@ async function loadData() {
 }
 
 loadData();
-content.style.display = "none";
+let images = document.querySelectorAll("img");
+images.forEach((img) => {
+  setTimeout(() => {
+    img.classList.add("loaded"); // Adds fade-in effect
+  }, 100);
+});
 
 function imageHandler() {
-  let images = document.querySelectorAll("img");
   images.forEach((el, i) => {
     el.addEventListener("click", (e) => {
       content.style.display = "block";
 
       images.forEach((img) => (img.style.display = "none"));
-      e.target.classList.add('size')
+      e.target.classList.add("size");
       e.target.style.display = "block";
 
+      setTimeout(() => {
+        e.target.classList.add("loaded"); // Adds fade-in effect
+      }, 100);
       container.classList.add("container");
 
       let animal = infoArr[i];
@@ -42,21 +49,19 @@ function imageHandler() {
   });
 }
 
-let imageSection = document.getElementById("imageSection");
 function createImage() {
-  imageSection.replaceChildren();
-
   container.classList.remove("container");
 
-  for (let i = 0; i < infoArr.length; i++) {
-    let image = document.createElement("img");
-    image.src = `./images/animal${i + 1}.jpeg`;
-    image.style.display = "block";
-    imageSection.appendChild(image);
-  }
+  images.forEach((img) => {
+    img.style.display = "grid";
+    img.classList.remove("size");
+    setTimeout(() => {
+      img.classList.add("loaded"); // Adds fade-in effect
+    }, 100);
+  });
 }
 home.addEventListener("click", (e) => {
+  content.style.display = "none";
   createImage();
   imageHandler();
-  content.style.display = "none";
 });
